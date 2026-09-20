@@ -29,8 +29,9 @@ if errorlevel 1 (
 )
 
 set PORT=4173
-echo Starting local server at http://127.0.0.1:%PORT%/
+set URL=http://127.0.0.1:%PORT%/huntingtons/
+echo Starting local server at %URL%
 echo Leave this window open. Close it to stop the app.
-start "" cmd /c "timeout /t 2 /nobreak >nul & start "" "http://127.0.0.1:%PORT%/""
+start "" cmd /c "timeout /t 2 /nobreak >nul & start "" "%URL%""
 call npm.cmd run preview -- --host 127.0.0.1 --port %PORT% --strictPort
 endlocal

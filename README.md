@@ -92,7 +92,8 @@ Needs [Node.js LTS](https://nodejs.org) on PATH.
 
 The launcher `cd`s into `web\`, uses `npm.cmd` (so PowerShell execution
 policy does not matter), installs `node_modules` if needed, builds, serves
-`web/dist` at `http://127.0.0.1:4173/`, and opens your default browser.
+`web/dist` at `http://127.0.0.1:4173/huntingtons/`, and opens your default
+browser.
 Leave the black window open; close it to stop the server.
 
 PowerShell-friendly:
@@ -119,30 +120,37 @@ npm run build
 npm run preview
 ```
 
+`npm run build` always sets Vite `base` to `/huntingtons/` (the GitHub Pages
+path). After `preview`, open **http://127.0.0.1:4173/huntingtons/** — not the
+server root.
+
 `web/dist/` is a static site. The PWA service worker caches the shell plus
 `baseline.json` so education pages stay readable offline after the first visit.
 
-## Publish on GitHub Pages (one-time dashboard click)
+## Publish on GitHub Pages
+
+Public URL:
+
+**https://mark-e-mark-1.github.io/huntingtons/**
 
 The workflow [`.github/workflows/pages.yml`](.github/workflows/pages.yml)
-builds `web/` with `base: /huntingtons/` and deploys `web/dist` using the
-official GitHub Pages actions. It runs on push to `main` and on
-**workflow_dispatch**.
+builds `web/` with Vite `base: /huntingtons/`, checks that the built HTML
+references `/huntingtons/assets/`, and deploys `web/dist` with the official
+GitHub Pages actions (`upload-pages-artifact` + `deploy-pages`). It runs on
+every push to `main` and on **Actions → Deploy GitHub Pages → Run workflow**.
 
-**One-time setup** (repo owner, in the GitHub website):
+**After merge, one dashboard click may still be required** if Pages was never
+turned on for this repo:
 
 1. Open **https://github.com/Mark-e-Mark-1/huntingtons/settings/pages**
-2. Under **Build and deployment → Source**, choose **GitHub Actions**
+2. **Build and deployment → Source** = **GitHub Actions**
    (not “Deploy from a branch”).
-3. If this branch is not `main` yet, either merge the PR or open the
-   **Actions** tab → **Deploy GitHub Pages** → **Run workflow**.
-4. Wait for the workflow to finish. The site is:
+3. If the first deploy already ran and failed, re-run **Deploy GitHub Pages**
+   from the Actions tab.
 
-   **https://mark-e-mark-1.github.io/huntingtons/**
-
-If Pages is still off, that URL will 404 until step 2 is done. Routes are
-hash-based (`#/research`, `#/glossary?q=HTT`) so they work on project Pages
-without a server rewrite.
+Until that source is set, https://mark-e-mark-1.github.io/huntingtons/ will
+404. Routes are hash-based (`#/research`, `#/glossary?q=HTT`) so they work on
+project Pages without a server rewrite.
 
 ## Install the Android app on a Pixel (sideload)
 

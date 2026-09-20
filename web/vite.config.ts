@@ -9,10 +9,11 @@ function syncBaseline(): void {
   copyFileSync(src, resolve(destDir, "baseline.json"));
 }
 
-export default defineConfig({
-  // Project Pages URL is https://mark-e-mark-1.github.io/huntingtons/
-  // Local preview keeps relative "./" so Vite's LAN URL still works.
-  base: process.env.GITHUB_PAGES === "1" ? "/huntingtons/" : "./",
+export default defineConfig(({ command }) => ({
+  // Project Pages site: https://mark-e-mark-1.github.io/huntingtons/
+  // Production builds always use that prefix. `vite` / `vite --host` keep
+  // relative "./" so local LAN URLs still work without a path prefix.
+  base: command === "build" ? "/huntingtons/" : "./",
   publicDir: "public",
   plugins: [
     {
@@ -33,4 +34,4 @@ export default defineConfig({
     host: true,
     port: 4173,
   },
-});
+}));
