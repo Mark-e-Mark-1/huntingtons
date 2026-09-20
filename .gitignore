@@ -10,3 +10,6 @@ captures/
 *.apk
 !artifacts/Huntingtons.apk
 .kotlin/
+web/node_modules/
+web/dist/
+web/public/baseline.json

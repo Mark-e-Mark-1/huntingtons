@@ -46,6 +46,12 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+
+    // Shared educational JSON lives in /content so the web app and Android
+    // app cannot drift. It is packaged as assets/baseline.json.
+    sourceSets {
+        getByName("main").assets.srcDir(rootProject.file("content"))
+    }
 }
 
 dependencies {

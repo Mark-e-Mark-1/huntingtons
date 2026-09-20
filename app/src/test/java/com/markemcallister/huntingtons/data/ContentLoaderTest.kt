@@ -122,6 +122,8 @@ class ContentLoaderTest {
 
     private fun bundledFile(): File {
         val candidates = listOf(
+            File("../content/baseline.json"),
+            File("content/baseline.json"),
             File("src/main/assets/baseline.json"),
             File("app/src/main/assets/baseline.json"),
         )

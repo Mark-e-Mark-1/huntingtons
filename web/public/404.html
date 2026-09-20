@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Huntington's</title>
+    <script>
+      (function () {
+        var path = location.pathname + location.search;
+        var parts = path.split("/").filter(Boolean);
+        var known = ["overview", "treatments", "research", "resources", "glossary", "about", "disclaimer"];
+        var idx = parts.findIndex(function (p) { return known.indexOf(p) !== -1; });
+        if (idx !== -1) {
+          location.replace("./#/" + parts.slice(idx).join("/") + location.search);
+        } else {
+          location.replace("./" + (location.hash || "#/"));
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <p><a href="./">Huntington's</a></p>
+  </body>
+</html>

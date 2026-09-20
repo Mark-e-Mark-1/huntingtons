@@ -1,0 +1,18 @@
+{
+  "name": "Huntington's Disease",
+  "short_name": "Huntington's",
+  "description": "Educational companion about Huntington’s disease. Not medical advice.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f7f6",
+  "theme_color": "#2C6E63",
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

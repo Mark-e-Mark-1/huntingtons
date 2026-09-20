@@ -6,7 +6,8 @@ import java.io.FileNotFoundException
 import java.io.InputStream
 
 object ContentLoader {
-    /** Plain JSON only. Do not ship a `.gz` asset: aapt2 decompresses `*.gz`
+    /** Plain JSON only. Source of truth is /content/baseline.json (also used
+     *  by the web app). Do not ship a `.gz` asset: aapt2 decompresses `*.gz`
      *  and strips the suffix, which crashed Spelling Helper when the code
      *  opened the original `.gz` name. */
     const val ASSET_NAME = "baseline.json"
