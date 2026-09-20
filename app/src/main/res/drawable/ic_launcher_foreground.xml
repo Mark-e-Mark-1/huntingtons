@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Open book with a supportive path — educational companion, not a clinic. -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,36h2c8,0 14,3 22,8 8,-5 14,-8 22,-8h2v38h-2c-8,0 -14,3 -22,8 -8,-5 -14,-8 -22,-8h-2z" />
+    <path
+        android:fillColor="#2C6E63"
+        android:pathData="M53,44c-7,-4 -12,-6 -19,-6v26c7,0 12,2 19,6zM55,44c7,-4 12,-6 19,-6v26c-7,0 -12,2 -19,6z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M53,43h2v36h-2z" />
+</vector>

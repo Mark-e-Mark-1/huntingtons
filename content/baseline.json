@@ -1,0 +1,466 @@
+{
+  "contentVersion": "1.0.0",
+  "generatedAt": "2026-09-20T17:19:31Z",
+  "educationLastReviewed": "2026-09-20",
+  "overview": {
+    "title": "What is Huntington’s Disease",
+    "intro": "Huntington’s disease (HD) is an inherited brain condition. Over time it damages nerve cells that help with movement, thinking, and mood. This page is a high-level teaching overview. It cannot tell you whether you or a family member has HD.",
+    "callout": "",
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Overview",
+        "body": "HD is caused by a change in a gene called HTT. That gene is the recipe for a protein named huntingtin. In one stretch of HTT, three DNA letters — C, A, and G — repeat in a row. That stretch is called a CAG repeat. In HD the CAG stretch is longer than usual. The longer huntingtin protein is harmful to certain brain cells, especially in deep brain areas that help start and smooth movement, and in the thinking outer layer of the brain. HD is not contagious. Adult-onset HD often becomes noticeable in a person’s thirties or forties, but earlier and later onsets happen. A less common form, juvenile HD, begins in childhood or the teen years.",
+        "glossaryTerms": [
+          "HTT",
+          "CAG repeat",
+          "Huntingtin"
+        ]
+      },
+      {
+        "id": "genetics",
+        "title": "Genetics and inheritance",
+        "body": "HD follows an autosomal dominant pattern. If a parent has the HD-related gene change, each child has a 1 in 2 (50%) chance of inheriting it. A child who does not inherit that change does not develop HD from it and cannot pass that HD change on. Public genetics sources describe CAG length in ranges. Many people have a typical, shorter count. A middle “intermediate” range usually does not cause HD in that person, but the count can grow when passed to a child. A reduced-penetrance range may or may not lead to symptoms. A longer full-penetrance range is strongly associated with HD. Repeat size can change from one generation to the next (anticipation), which is one reason age at onset varies. Whether to have genetic testing is a personal decision. Genetic counselors can explain options, limits of a result, privacy, and family implications. This app does not interpret test results and has no calculator or “what does my number mean” tool.",
+        "glossaryTerms": [
+          "Autosomal dominant",
+          "Penetrance",
+          "Anticipation",
+          "Genetic counseling"
+        ]
+      },
+      {
+        "id": "symptoms",
+        "title": "Symptoms over time",
+        "body": "Everyone experiences HD differently, and symptoms can change as years pass. This is a description, not a self-score quiz and not a way to diagnose yourself. Motor changes can include clumsiness, trouble with walking or balance, muscle tightness or unusual postures (dystonia), and involuntary dance-like movements called chorea. Speech and swallowing can become harder. Cognitive changes can include slower thinking, trouble planning or switching tasks, and later more serious thinking problems. Psychiatric and behavioral changes can include depression, irritability, anxiety, loss of interest (apathy), and, less often, psychosis. Sleep problems and weight loss are common. Juvenile HD more often involves stiffness, slowness, school trouble, and sometimes seizures. Only a clinician can evaluate symptoms in a real person.",
+        "glossaryTerms": [
+          "Chorea",
+          "Dystonia",
+          "Cognition",
+          "Juvenile HD"
+        ]
+      },
+      {
+        "id": "how-common",
+        "title": "How common is HD?",
+        "body": "HD is uncommon. MedlinePlus Genetics estimates about 3 to 7 people per 100,000 of European ancestry, and notes that HD appears less common in some other populations. Advocacy groups in the United States talk about tens of thousands of people living with HD and many more who may be at genetic risk. Exact counts vary by study and by region. HD occurs worldwide.",
+        "glossaryTerms": []
+      },
+      {
+        "id": "living",
+        "title": "Living with HD",
+        "body": "Care is usually long-term and shared across a team: neurology, mental health, physical, occupational, and speech therapy, nutrition, social work, and community support. Many families use HD specialty clinics when they can. Practical topics include safety at home, driving and work, legal and financial planning, and rest for caregivers. Support groups and HD organizations can help people feel less alone. Needs change over time. There is no single “right” way to live with HD.",
+        "glossaryTerms": [
+          "Multidisciplinary care"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "NINDS: Huntington's Disease",
+        "url": "https://www.ninds.nih.gov/health-information/disorders/huntingtons-disease"
+      },
+      {
+        "label": "MedlinePlus Genetics: Huntington disease",
+        "url": "https://medlineplus.gov/genetics/condition/huntington-disease/"
+      },
+      {
+        "label": "GeneReviews: Huntington Disease",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK1305/"
+      }
+    ]
+  },
+  "treatments": {
+    "title": "Current Treatments",
+    "intro": "This page describes kinds of care that HD teams commonly use today. It is not a prescription, a dose table, or advice for any one person.",
+    "callout": "Medication choices are individual — ask your clinician.",
+    "sections": [
+      {
+        "id": "frame",
+        "title": "What this page is — and is not",
+        "body": "Care teams treat symptoms, support daily function, and help families plan. As of this educational review, public federal sources still describe HD as a condition without a treatment that stops or reverses the disease for everyone. Experimental approaches belong on the research page and in conversations with specialists. Nothing here tells you to start, stop, or change a medicine.",
+        "glossaryTerms": []
+      },
+      {
+        "id": "symptom",
+        "title": "Symptom management (classes of approaches)",
+        "body": "Movement: one class of medicines, VMAT2 inhibitors, is used to treat chorea associated with HD. U.S. labels in this class have included tetrabenazine, deutetrabenazine, and valbenazine. Those names are examples of a class — not a menu to pick from, and this app does not list doses, schedules, or brand shopping advice. Mental health: clinicians may use medicines for depression, anxiety, irritability, or psychosis. NINDS notes that some antipsychotic medicines can worsen movement symptoms, so teams watch for side effects. Sleep, pain, mood, and nutrition problems are handled case by case. Side effects of HD symptom medicines can include tiredness, sleepiness, restlessness, or trouble concentrating. Your own clinician weighs benefits and harms.",
+        "glossaryTerms": [
+          "VMAT2 inhibitor",
+          "Chorea"
+        ]
+      },
+      {
+        "id": "team",
+        "title": "Multidisciplinary care",
+        "body": "HD clinics often bring several specialists together. A neurologist may follow movement and thinking. Mental health clinicians treat mood and behavior. Social workers help with services, insurance paperwork, and family strain. Primary care still matters for the rest of a person’s health. Specialty “center of excellence” programs, including those listed by the Huntington’s Disease Society of America, are one way U.S. families find experienced teams.",
+        "glossaryTerms": [
+          "Multidisciplinary care"
+        ]
+      },
+      {
+        "id": "therapies",
+        "title": "Supportive therapies",
+        "body": "Physical therapy can work on walking, balance, and staying active safely. Occupational therapy can adapt dressing, eating, and home tasks. Speech-language pathologists help with speech and swallowing and can lower choking risk. Nutrition support often focuses on calories, texture of food, and weight. Counseling and caregiver education are part of care, not extras.",
+        "glossaryTerms": []
+      },
+      {
+        "id": "counseling",
+        "title": "Genetic counseling and family planning pointers",
+        "body": "People who have HD, who may be at risk, or who are planning a pregnancy can meet a genetics professional. Counseling can cover whether to test, when to test, what a result can and cannot say, and reproductive options. This app does not recommend testing, does not interpret numbers, and does not compare family-planning methods. A directory of genetic counselors is in Resources.",
+        "glossaryTerms": [
+          "Genetic counseling",
+          "Predictive testing"
+        ]
+      },
+      {
+        "id": "standard-vs-experimental",
+        "title": "Standard of care versus experimental",
+        "body": "Standard of care here means treatments and supports that licensed clinicians already use in everyday HD care, including FDA-approved medicines for chorea and therapies for function and mood. Experimental means a drug, device, gene approach, or procedure being studied. A trial listing is not the same as an approved treatment. Ask a specialist before assuming a headline is available at a local clinic.",
+        "glossaryTerms": [
+          "Clinical trial"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "NINDS: How is Huntington's disease diagnosed and treated?",
+        "url": "https://www.ninds.nih.gov/health-information/disorders/huntingtons-disease"
+      },
+      {
+        "label": "MedlinePlus Genetics: Huntington disease",
+        "url": "https://medlineplus.gov/genetics/condition/huntington-disease/"
+      },
+      {
+        "label": "GeneReviews: Huntington Disease",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK1305/"
+      }
+    ]
+  },
+  "research": {
+    "title": "Latest Research",
+    "howToRead": "Research is how new ideas are tested. A lab finding, a news headline, or a registered trial is not the same as a treatment you can get today. Many experimental therapies fail, help only some people, or take years to be reviewed. Dates on cards are when the public record was last updated, not a promise of progress. This app never invents trial results or approvals. If a card does not say a result was published, do not assume there is one.",
+    "askSpecialist": "Ask your specialist about trials.",
+    "pipelineThemes": [
+      {
+        "id": "gene-lowering",
+        "title": "Gene-lowering and antisense approaches",
+        "body": "Several experimental strategies aim to lower huntingtin protein. They include antisense oligonucleotides (ASOs), RNA interference, and gene therapy delivered to the brain. Public trial records show studies at different phases. Lowering huntingtin is a research idea, not a guaranteed treatment. Some large studies in this area have not met their main goals; related work continues in other protocols. Being in a trial, or seeing a sponsor name, does not mean the approach is approved.",
+        "glossaryTerms": [
+          "Antisense oligonucleotide (ASO)",
+          "Gene-lowering"
+        ]
+      },
+      {
+        "id": "small-molecules",
+        "title": "Small molecules and other medicines in studies",
+        "body": "Researchers also study oral or other medicines that may affect huntingtin processing, brain-cell signaling, or symptoms. Examples appear in public registries under names that can change (a compound may be renamed after a company partnership). A Phase 2 or Phase 3 listing means the study is farther along than a first-in-human study. It still does not mean the medicine works or will be sold.",
+        "glossaryTerms": [
+          "Clinical trial"
+        ]
+      },
+      {
+        "id": "biomarkers",
+        "title": "Biomarkers and natural-history studies",
+        "body": "Biomarkers are measurements — in spinal fluid, blood, or brain scans — that researchers hope will show how HD is changing. They can help design trials. They are not home tests and they do not replace a clinician’s evaluation. Long-running collection studies, such as cerebrospinal-fluid research programs, exist to support future treatment development.",
+        "glossaryTerms": [
+          "Biomarker"
+        ]
+      }
+    ],
+    "clinicalTrialsPrimer": "A clinical trial is a structured research study with rules for who can join, what is given, and what is measured. Phases generally move from first safety checks toward larger tests of benefit. You may see statuses such as Recruiting or Enrolling by invitation. Placebo-controlled studies compare an experimental product with an inactive look-alike. Not every trial is right for every person. Location, stage of HD, other medicines, and travel all matter. The U.S. National Library of Medicine hosts ClinicalTrials.gov, a public registry. Open the explore link below in your browser to search for yourself. This app does not enroll you in a study.",
+    "exploreTrialsLabel": "Explore HD studies on ClinicalTrials.gov",
+    "exploreTrialsUrl": "https://clinicaltrials.gov/search?cond=Huntington%20Disease",
+    "notableDevelopments": [
+      {
+        "id": "ninds-research-overview-2026",
+        "title": "Federal research overview: understanding HD and hunting for treatments",
+        "summary": "The National Institute of Neurological Disorders and Stroke describes NIH-supported work on how altered huntingtin harms brain cells, why some cells in the striatum are especially vulnerable, and how CAG repeats can change over a lifetime. NINDS also describes research on gene-lowering ideas, delivery into the brain, and biomarkers that might track HD before and after symptoms. This is a public overview of research directions, not a list of available clinic treatments.",
+        "source": "NINDS",
+        "sourceUrl": "https://www.ninds.nih.gov/health-information/disorders/huntingtons-disease",
+        "date": "2026-09-20",
+        "kind": "notable"
+      },
+      {
+        "id": "chorea-class-context-2023",
+        "title": "Chorea medicines are established care — not the same as disease-modifying research",
+        "summary": "NINDS lists tetrabenazine, deutetrabenazine, and valbenazine among medicines used for chorea symptoms. Those approvals and uses belong on the Current Treatments page. They are mentioned here so a research headline is not confused with everyday symptom care. Symptom control is important. It is not evidence that HD itself has been stopped.",
+        "source": "NINDS",
+        "sourceUrl": "https://www.ninds.nih.gov/health-information/disorders/huntingtons-disease",
+        "date": "2023-08-18",
+        "kind": "notable"
+      }
+    ],
+    "trialItems": [
+      {
+        "id": "NCT07609108",
+        "title": "Pridopidine Phase 3 Study in Huntington's Disease",
+        "summary": "The goal of this clinical trial is to learn if pridopidine can slow the clinical decline of Huntington's Disease (HD) in adult participants. It will also inform about the safety of pridopidine. The main questions the study aims to answer are: Does pridopidine slow the overall worsening of HD over 1 year? ClinicalTrials.gov lists this study as Recruiting (Phase 3). Lead sponsor: Prilenia. Interventions named in the record: Pridopidine. A listing here is a public registration, not proof that the approach works, is safe for you, or is available outside a trial.",
+        "source": "ClinicalTrials.gov",
+        "sourceUrl": "https://clinicaltrials.gov/study/NCT07609108",
+        "date": "2026-09-17",
+        "kind": "clinical_trial"
+      },
+      {
+        "id": "NCT07378644",
+        "title": "Study to Evaluate the Pharmacodynamics, Safety and Efficacy of SKY-0515 in Participants With Huntington's Disease",
+        "summary": "The goal of this clinical trial is to test if the drug SKY-0515, an oral medication, can lower harmful proteins linked to Huntington's Disease (HD) and improve the symptoms of participants with HD. This study includes men and women aged 25 and older who have HD confirmed by genetic testing and meet certain requirements for physical ability and independence. ClinicalTrials.gov lists this study as Recruiting (Phase 2, Phase 3). Lead sponsor: Skyhawk Therapeutics, Inc.. Interventions named in the record: SKY-0515. A listing here is a public registration, not proof that the approach works, is safe for you, or is available outside a trial.",
+        "source": "ClinicalTrials.gov",
+        "sourceUrl": "https://clinicaltrials.gov/study/NCT07378644",
+        "date": "2026-09-17",
+        "kind": "clinical_trial"
+      },
+      {
+        "id": "NCT06585449",
+        "title": "A Study to Evaluate ALN-HTT02 in Adult Patients With Huntington's Disease",
+        "summary": "The purpose of this study is to evaluate the safety, tolerability, pharmacodynamics (PD) and pharmacokinetics (PK) of single or repeat doses of ALN-HTT02. ClinicalTrials.gov lists this study as Recruiting (Phase 1). Lead sponsor: Alnylam Pharmaceuticals. Interventions named in the record: ALN-HTT02. A listing here is a public registration, not proof that the approach works, is safe for you, or is available outside a trial.",
+        "source": "ClinicalTrials.gov",
+        "sourceUrl": "https://clinicaltrials.gov/study/NCT06585449",
+        "date": "2026-09-16",
+        "kind": "clinical_trial"
+      },
+      {
+        "id": "NCT07536061",
+        "title": "A First-in-human Study of the Effects of SRP-1005 in Participants With Huntington's Disease",
+        "summary": "This is a first-in-human, multi-center trial studying the effects of SRP-1005 in participants with Huntington's disease (HD). ClinicalTrials.gov lists this study as Recruiting (Phase 1). Lead sponsor: Sarepta Therapeutics, Inc.. Interventions named in the record: SRP-1005. A listing here is a public registration, not proof that the approach works, is safe for you, or is available outside a trial.",
+        "source": "ClinicalTrials.gov",
+        "sourceUrl": "https://clinicaltrials.gov/study/NCT07536061",
+        "date": "2026-09-04",
+        "kind": "clinical_trial"
+      },
+      {
+        "id": "NCT07246941",
+        "title": "A Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of RG6496 in Huntington's Disease",
+        "summary": "This is a first-in-human (FIH) study of RG6496 that will assess the safety and tolerability of single-ascending doses of RG6496 administered to huntington's disease gene expansion carriers (HDGECs). The study consists of two parts: Part 1 \\[single-ascending dose\\] followed by Part 2 \\[open-label extension (OLE)\\]. ClinicalTrials.gov lists this study as Active, not recruiting (Phase 1). Lead sponsor: Hoffmann-La Roche. Interventions named in the record: RG6496. A listing here is a public registration, not proof that the approach works, is safe for you, or is available outside a trial.",
+        "source": "ClinicalTrials.gov",
+        "sourceUrl": "https://clinicaltrials.gov/study/NCT07246941",
+        "date": "2026-09-02",
+        "kind": "clinical_trial"
+      },
+      {
+        "id": "NCT07326709",
+        "title": "A Study to Investigate the Efficacy, Safety and Tolerability of Votoplam in Participants With Huntington's Disease",
+        "summary": "The purpose is to assess safety and tolerability of votoplam and to determine whether votoplam slows disease progression in patients with early symptomatic Huntington's disease (HD) compared to the control arm. HTT227 - current compound code (former code is PTC518 from PTC Therapeutics), HTT227 is Novartis code under Novartis sponsorship. ClinicalTrials.gov lists this study as Recruiting (Phase 3). Lead sponsor: Novartis Pharmaceuticals. Interventions named in the record: Votoplam (blinded). A listing here is a public registration, not proof that the approach works, is safe for you, or is available outside a trial.",
+        "source": "ClinicalTrials.gov",
+        "sourceUrl": "https://clinicaltrials.gov/study/NCT07326709",
+        "date": "2026-08-31",
+        "kind": "clinical_trial"
+      },
+      {
+        "id": "NCT05822908",
+        "title": "A Safety and Pharmacokinetics Trial of VO659 in SCA1, SCA3 and HD",
+        "summary": "The goal of this first-in-human clinical trial is to assess the safety and tolerability of four doses of a new study drug called VO659 in people with genetic disorders called spinocerebellar ataxia type 1, type 3 or Huntington's disease. Another aim is to determine the concentrations of the study drug in the cerebral spinal fluid and blood after single and multiple doses. Study drug will be administered by lumbar intrathecal bolus injections. ClinicalTrials.gov lists this study as Recruiting (Phase 1, Phase 2). Lead sponsor: Vico Therapeutics B. V.. Interventions named in the record: VO659. A listing here is a public registration, not proof that the approach works, is safe for you, or is available outside a trial.",
+        "source": "ClinicalTrials.gov",
+        "sourceUrl": "https://clinicaltrials.gov/study/NCT05822908",
+        "date": "2026-08-19",
+        "kind": "clinical_trial"
+      },
+      {
+        "id": "NCT07010705",
+        "title": "Digital Measures for Clinical Trial Endpoints in Huntington's Disease",
+        "summary": "MEND-HD is a longitudinal study evaluating the feasibility of passive monitoring of gait and chorea in patients with HD and the meaningfulness of these outcomes for patients with HD and their care partners/support persons. Participants will take part in four virtual visits with study investigators to answer survey questions on movement and cognition, perform in-home movement assessments, and take part in an interview regarding the meaningfulness of gait and chorea in their daily lives. Participant and care partner interviews will be used for symptom mapping and qualitative data analysis to assess the relevance and impact of the targeted symptoms on the participant's daily life. ClinicalTrials.gov lists this study as Recruiting. Lead sponsor: University of Rochester. Interventions named in the record: ActiGraph LEAP, Axivity AX6. A listing here is a public registration, not proof that the approach works, is safe for you, or is available outside a trial.",
+        "source": "ClinicalTrials.gov",
+        "sourceUrl": "https://clinicaltrials.gov/study/NCT07010705",
+        "date": "2026-08-17",
+        "kind": "clinical_trial"
+      },
+      {
+        "id": "NCT05686551",
+        "title": "GENERATION HD2. A Study to Evaluate the Safety, Biomarkers, and Efficacy of Tominersen Compared With Placebo in Participants With Prodromal and Early Manifest Huntington's Disease",
+        "summary": "This study will evaluate the safety, biomarkers, and efficacy of tominersen compared with placebo in participants with prodromal and early manifest Huntington's Disease (HD). ClinicalTrials.gov lists this study as Active, not recruiting (Phase 2). Lead sponsor: Hoffmann-La Roche. Interventions named in the record: Tominersen. A listing here is a public registration, not proof that the approach works, is safe for you, or is available outside a trial.",
+        "source": "ClinicalTrials.gov",
+        "sourceUrl": "https://clinicaltrials.gov/study/NCT05686551",
+        "date": "2026-08-10",
+        "kind": "clinical_trial"
+      },
+      {
+        "id": "NCT04713982",
+        "title": "Impact of Deutetrabenazine on Functional Speech and Gait Dynamics in Huntington Disease",
+        "summary": "Examine the effects of deutetrabenazine on functional speech and gait impairment ClinicalTrials.gov lists this study as Active, not recruiting (Phase 2, Phase 3). Lead sponsor: Vanderbilt University Medical Center. Interventions named in the record: Deutetrabenazine. A listing here is a public registration, not proof that the approach works, is safe for you, or is available outside a trial.",
+        "source": "ClinicalTrials.gov",
+        "sourceUrl": "https://clinicaltrials.gov/study/NCT04713982",
+        "date": "2026-08-05",
+        "kind": "clinical_trial"
+      },
+      {
+        "id": "NCT07537075",
+        "title": "An Extension of SKY-0515 in Participants With Huntington's Disease",
+        "summary": "The goal of this clinical trial is to test if the drug SKY-0515, an oral medication, can lower harmful proteins linked to Huntington's Disease (HD) and improve the symptoms of participants with HD. This study includes men and women aged 25 and older who have HD confirmed by genetic testing and meet certain requirements for physical ability and independence. ClinicalTrials.gov lists this study as Enrolling by invitation (Phase 2, Phase 3). Lead sponsor: Skyhawk Therapeutics, Inc.. Interventions named in the record: SKY-0515. A listing here is a public registration, not proof that the approach works, is safe for you, or is available outside a trial.",
+        "source": "ClinicalTrials.gov",
+        "sourceUrl": "https://clinicaltrials.gov/study/NCT07537075",
+        "date": "2026-07-24",
+        "kind": "clinical_trial"
+      }
+    ]
+  },
+  "resources": {
+    "intro": "These are curated public links, mainly U.S. organizations and federal sites. They open in your web browser. Inclusion is not an endorsement of a product or a clinic, and it is not a referral.",
+    "items": [
+      {
+        "title": "Huntington's Disease Society of America (HDSA)",
+        "description": "National U.S. HD organization with education, community programs, and help finding care.",
+        "url": "https://hdsa.org",
+        "category": "HD organization"
+      },
+      {
+        "title": "HDSA: Find help and local resources",
+        "description": "Starting point for U.S. support, including ways to look up programs and specialty care.",
+        "url": "https://hdsa.org/find-help/",
+        "category": "Care and support"
+      },
+      {
+        "title": "HDSA: Clinical trials information",
+        "description": "Advocacy-oriented overview of HD research participation. Confirm any study on ClinicalTrials.gov and with your clinicians.",
+        "url": "https://hdsa.org/research/clinical-trials/",
+        "category": "Trial finder"
+      },
+      {
+        "title": "Huntington's Disease Youth Organization (HDYO)",
+        "description": "Education and community for young people in HD families.",
+        "url": "https://en.hdyo.org",
+        "category": "Youth and family"
+      },
+      {
+        "title": "International Huntington Association",
+        "description": "Umbrella group connecting HD associations in many countries if you need non-U.S. contacts.",
+        "url": "https://www.huntington-disease.org",
+        "category": "HD organization"
+      },
+      {
+        "title": "NINDS Huntington's Disease information",
+        "description": "U.S. National Institute of Neurological Disorders and Stroke public overview of HD, care, and research.",
+        "url": "https://www.ninds.nih.gov/health-information/disorders/huntingtons-disease",
+        "category": "Federal information"
+      },
+      {
+        "title": "MedlinePlus Genetics: Huntington disease",
+        "description": "Plain-language genetics page from the U.S. National Library of Medicine.",
+        "url": "https://medlineplus.gov/genetics/condition/huntington-disease/",
+        "category": "Federal information"
+      },
+      {
+        "title": "GeneReviews: Huntington Disease",
+        "description": "Expert-reviewed genetics chapter used by clinicians. Dense reading; pair with a genetics professional.",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK1305/",
+        "category": "Federal information"
+      },
+      {
+        "title": "ClinicalTrials.gov: Huntington disease studies",
+        "description": "Official U.S. registry search for studies listing Huntington disease. A listing is not a treatment offer.",
+        "url": "https://clinicaltrials.gov/search?cond=Huntington%20Disease",
+        "category": "Trial finder"
+      },
+      {
+        "title": "NSGC Find a Genetic Counselor",
+        "description": "Directory from the National Society of Genetic Counselors. Useful if you want to talk through testing or family planning.",
+        "url": "https://findageneticcounselor.nsgc.org",
+        "category": "Genetic counseling"
+      },
+      {
+        "title": "Family Caregiver Alliance",
+        "description": "U.S. caregiver education and support that is not HD-specific but is often useful for long-term care partners.",
+        "url": "https://www.caregiver.org",
+        "category": "Caregiver"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term": "Allele",
+      "definition": "One version of a gene. People have two copies of most genes, one from each parent."
+    },
+    {
+      "term": "Anticipation",
+      "definition": "When a genetic condition appears earlier or more strongly in later generations. In HD this can happen if the CAG repeat grows as it is passed on."
+    },
+    {
+      "term": "Antisense oligonucleotide (ASO)",
+      "definition": "A short, lab-made piece of genetic material designed to stick to RNA and change how much protein is made. ASOs that aim to lower huntingtin are experimental."
+    },
+    {
+      "term": "Autosomal dominant",
+      "definition": "A inheritance pattern where one changed copy of a gene can be enough to cause a condition. Each child of an affected parent has a 50% chance of inheriting that copy."
+    },
+    {
+      "term": "Biomarker",
+      "definition": "A measurable sign of a biological process, such as a protein in spinal fluid or a change on a brain scan. Biomarkers are mainly research tools in HD."
+    },
+    {
+      "term": "CAG repeat",
+      "definition": "A stretch of DNA where C, A, and G appear over and over in the HTT gene. A longer-than-usual stretch is the gene change linked to HD."
+    },
+    {
+      "term": "Chorea",
+      "definition": "Involuntary, dance-like or fidgety movements. Chorea is a common motor feature of HD, but not everyone has the same amount."
+    },
+    {
+      "term": "Clinical trial",
+      "definition": "A research study in people that follows a protocol. Registration on ClinicalTrials.gov does not mean a treatment is approved or right for you."
+    },
+    {
+      "term": "Cognition",
+      "definition": "Thinking skills such as attention, planning, memory, and decision-making. HD can slow or change these skills over time."
+    },
+    {
+      "term": "Dystonia",
+      "definition": "Unwanted muscle tightening that can pull the body into unusual postures. It can appear in HD along with other movement changes."
+    },
+    {
+      "term": "Gene-lowering",
+      "definition": "Research strategies that try to reduce huntingtin protein. They are experimental and are not the same as today’s symptom care."
+    },
+    {
+      "term": "Genetic counseling",
+      "definition": "A conversation with a genetics professional about inheritance, testing options, and family implications. Counseling is information and support, not a requirement to test."
+    },
+    {
+      "term": "HTT",
+      "definition": "The huntingtin gene on chromosome 4. A longer CAG repeat in HTT causes HD."
+    },
+    {
+      "term": "Huntingtin",
+      "definition": "The protein made from the HTT gene. An elongated form is linked to damage of certain brain cells in HD."
+    },
+    {
+      "term": "Intermediate allele",
+      "definition": "A CAG count in a middle range that usually does not cause HD in that person but can expand when passed to a child. A genetics professional should interpret any personal result."
+    },
+    {
+      "term": "Juvenile HD",
+      "definition": "Huntington’s disease that begins in childhood or adolescence. It is less common than adult-onset HD and often looks more stiff or slow than dance-like."
+    },
+    {
+      "term": "Multidisciplinary care",
+      "definition": "Care from several kinds of professionals working together, such as neurology, therapy, mental health, nutrition, and social work."
+    },
+    {
+      "term": "Penetrance",
+      "definition": "The chance that a gene change will actually lead to the condition. “Reduced penetrance” means some people with that range of CAG repeats may never develop clear HD."
+    },
+    {
+      "term": "Placebo",
+      "definition": "An inactive look-alike used in some trials so researchers can compare an experimental product with no active drug."
+    },
+    {
+      "term": "Predictive testing",
+      "definition": "A genetic test done in a person who does not have HD symptoms but may be at risk. Whether to test is a personal choice made with counseling."
+    },
+    {
+      "term": "Striatum",
+      "definition": "Deep brain structures (including the caudate and putamen) that help control movement. They are especially affected in HD."
+    },
+    {
+      "term": "VMAT2 inhibitor",
+      "definition": "A class of medicines used to treat chorea by affecting how certain brain chemicals are stored and released. Choice and dose are clinician decisions; this app does not list doses."
+    }
+  ],
+  "disclaimer": {
+    "shortText": "Educational only. This app does not diagnose HD, interpret genetic tests, recommend medicines or doses, or give personalized medical advice. For emergencies, use local emergency services (in the U.S., 911).",
+    "fullText": "This app is an educational companion about Huntington’s disease for patients, families, and caregivers. It is not a clinical tool.\n\nIt does not diagnose Huntington’s disease, interpret genetic test results, recommend medicines or doses, or give personalized medical advice. Health decisions belong with you and your own licensed clinicians.\n\nIf you think you or someone else is having a medical emergency, call your local emergency number (in the United States, 911) or go to the nearest emergency department. If you are in emotional crisis, use local emergency services or a local crisis line.\n\nContent is high-level and drawn from public sources such as NINDS, MedlinePlus Genetics, GeneReviews, HD advocacy sites, and ClinicalTrials.gov. A listing on ClinicalTrials.gov means a study is registered. It does not mean a treatment works, is safe for you, or is available outside a trial.\n\nEducation pages are packaged so you can read them offline. Refresh uses the network only to update the Latest Research snapshot from public APIs. If refresh fails, the last saved content stays on this device or browser."
+  },
+  "about": {
+    "purpose": "Huntington’s is a companion in the same family as Mark’s other learning apps. The Android app is for a Google Pixel; the same educational pages are also on the web. It explains HD in warm, plain U.S. English for adults who want a calm overview — patients, families, and caregivers — without accounts, ads, or analytics.",
+    "sourcing": "Education pages are a packaged baseline (contentVersion plus generatedAt). They summarize public federal and expert sources and name those sources on each page. Latest Research cards that come from ClinicalTrials.gov are copied from the public registry (title, summary, status, dates, sponsor, link). The app does not scrape private records and does not invent results.",
+    "refresh": "Tap Refresh in the top bar when you have a network connection. The app calls ClinicalTrials.gov API v2 for studies whose condition is Huntington disease, keeps a local cache, and shows the fetch time. Education, glossary, and resources stay in the packaged baseline. If the network call fails, you keep the last good snapshot and see a short message.",
+    "version": "1.0.0"
+  }
+}

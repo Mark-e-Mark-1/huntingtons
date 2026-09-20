@@ -1,0 +1,91 @@
+plugins {
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+    id("org.jetbrains.kotlin.plugin.compose")
+}
+
+android {
+    namespace = "com.markemcallister.huntingtons"
+    compileSdk = 35
+
+    defaultConfig {
+        applicationId = "com.markemcallister.huntingtons"
+        minSdk = 26
+        targetSdk = 35
+        versionCode = 1
+        versionName = "1.0.0"
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            isMinifyEnabled = false
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro",
+            )
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+
+    buildFeatures {
+        compose = true
+        buildConfig = true
+    }
+
+    packaging {
+        resources {
+            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+        }
+    }
+
+    // Shared educational JSON lives in /content so the web app and Android
+    // app cannot drift. It is packaged as assets/baseline.json.
+    sourceSets {
+        getByName("main").assets.srcDir(rootProject.file("content"))
+    }
+}
+
+dependencies {
+    val composeBom = platform("androidx.compose:compose-bom:2024.12.01")
+    implementation(composeBom)
+    implementation("androidx.compose.ui:ui")
+    implementation("androidx.compose.ui:ui-tooling-preview")
+    implementation("androidx.compose.material3:material3")
+    implementation("androidx.compose.material:material-icons-extended")
+    implementation("androidx.activity:activity-compose:1.9.3")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.7")
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.8.7")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
+
+    debugImplementation("androidx.compose.ui:ui-tooling")
+
+    testImplementation("junit:junit:4.13.2")
+    testImplementation("org.json:json:20240303")
+}
+
+fun copyDebugApk() {
+    val apk = layout.buildDirectory.file("outputs/apk/debug/app-debug.apk").get().asFile
+    if (!apk.exists()) return
+    val repoCopy = rootProject.file("artifacts/Huntingtons.apk")
+    repoCopy.parentFile.mkdirs()
+    apk.copyTo(repoCopy, overwrite = true)
+    val cursorDir = file("/opt/cursor/artifacts")
+    if (cursorDir.isDirectory) {
+        apk.copyTo(cursorDir.resolve("Huntingtons.apk"), overwrite = true)
+    }
+}
+
+afterEvaluate {
+    tasks.named("assembleDebug").configure {
+        doLast { copyDebugApk() }
+    }
+}
